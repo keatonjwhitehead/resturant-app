@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/keatonjwhitehead/resturant-app/static/css/main.a7d54a95.css",
+    "main.js": "/keatonjwhitehead/resturant-app/static/js/main.2a44f030.js",
+    "index.html": "/keatonjwhitehead/resturant-app/index.html",
+    "main.a7d54a95.css.map": "/keatonjwhitehead/resturant-app/static/css/main.a7d54a95.css.map",
+    "main.2a44f030.js.map": "/keatonjwhitehead/resturant-app/static/js/main.2a44f030.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7d54a95.css",
+    "static/js/main.2a44f030.js"
+  ]
+}
