@@ -66,7 +66,6 @@ const CartProvider = (props) => {
         dispatchCartAction({type: 'ADD', item: item})
     };
     const removeItemFromCartHandler = (id) => {
-        console.log("inside remove call id:"+ id);
         dispatchCartAction({type: 'REMOVE', id: id})
         
     };

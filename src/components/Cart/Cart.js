@@ -29,7 +29,7 @@ const Cart = (props) => {
                 ))
             }
         </ul>
-        );
+    );
     return (
         <Modal onHideCartHandler={props.onHideCart}>
             {cartItems}
@@ -42,7 +42,7 @@ const Cart = (props) => {
                 {hasItems && <button className={classes.button}>Order</button>}
             </div>
         </Modal>
-    )
+    );
 };
 
 export default Cart;
