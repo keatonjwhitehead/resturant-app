@@ -16,7 +16,7 @@ const AvailableMeals = (props) => {
     const response = await fetch('https://react-restaurant-app-70a9b-default-rtdb.firebaseio.com/meals.json'); 
     
     if(!response.ok) {
-      throw new Error('Something went wrong!')
+      throw new Error('Something went wrong!');
     }
     const data = await response.json();
     const loadedMeals = [];
